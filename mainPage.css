@@ -173,20 +173,22 @@
   border-top: 2px solid;
 }
 
-.mnFace-r .reserv {
+/* 버튼 */
+.mnFace-r .admin {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.mnFace-r .reservBtn {
+.mnFace-r .adminBtn {
   border: 0;
   outline: none;
-  width: 85%;
+  width: 40%;
   height: 40px;
   box-shadow: 1px 1px 1px;
   background-color: var(--mn__tag-label);
+  margin-left: 25px;
 }
-.mnFace-r .reservBtn:active {
+.mnFace-r .adminBtn:active {
   background-color: var(--button-color-clicked);
 }
 
@@ -224,7 +226,7 @@
 }
 
 .menuBtn > header > label {
-  width: 100px;
+  width: 25%;
   height: 40px;
   line-height: 40px;
   text-decoration: none;
